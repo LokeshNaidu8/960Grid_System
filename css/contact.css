@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.contact .contactheading{
+    height:500px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .contactheading h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    color:rgb(255, 1, 1);
+}
+.contact .contactheading ul li p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color:rgb(167, 165, 165);
+    height:auto;
+    width:300px;
+    padding:5px
+}
+
+ul{
+    color:red;
+}
+.contactform .forms form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:50px;
+}
+
+.contactform .forms form .inp{
+    height:20px;
+    width:500px;
+    font-size: 15px;
+    color:white;
+    padding:20px;
+    background-color: black;
+    border:2px solid red;
+    border-radius: 10px;
+    margin:10px;
+    font-family: 'Montserrat';
+    outline: none;
+}
+.contactform .forms form .message{
+    width: 500px;
+    font-size: 15px;
+    color:white;
+    padding:20px;
+    background-color: black;
+    border:2px solid red;
+    border-radius: 10px;
+    margin:10px;
+    font-family: 'Montserrat';
+    outline: none;
+}
+
+.contactform .forms form #btn{
+    top:10px;
+    position: relative;
+    height:50px;
+    width:300px;
+    font-size: 15px;
+    background-color:rgb(15, 15, 15);
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    color:white;
+    outline: none;
+    transition: 500ms ease-out;
+    border:none;
+}
+.contactform .forms #btn:hover{
+    color:white;
+    background-color: rgb(255, 20, 20);
+}
